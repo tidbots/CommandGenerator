@@ -1,11 +1,37 @@
 # RoboCup@home コマンドジェネレータ
-オリジナルは　
+オリジナルは　https://github.com/RoboCupAtHome/CommandGenerator
+
+# 使い方
+## インストール
+venvで動かすので事前にインストールしておいて下さい．
+例えば：<br>
+macOSやUbuntuの場合
+```
+sudo apt update
+sudo apt install python3-venv
+```
+リポジトリのクローン
+```
+cd ~/
+git clone https://github.com/RoboCupAtHome/CommandGenerator.git
+```
+競技用のデータのダウンロード
+
+大会テンプレートや過去の大会のデータが[公式リポジトリ](https://github.com/RoboCupAtHome)にあるのでダウンロードして下さい．
+- [大会テンプレート](https://github.com/RoboCupAtHome/CompetitionTemplate)
+- [Salvador2025](https://github.com/RoboCupAtHome/Salvador2025)
+- [Eindhoven2024](https://github.com/RoboCupAtHome/Eindhoven2024)
 
 
 
 
 
 
+
+```
+cd ~/CommandGenerator
+
+```
 
 
 # Instructions
@@ -14,7 +40,8 @@
 
 With tool of your choice. e.g. venv and pip
 
-- `python -m venv venv`
+- `python -m venv venv`ls
+- 
 - `source venv/bin/activate`
 - `pip install .`
 - `athome-generator --help`
